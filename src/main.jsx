@@ -109,7 +109,7 @@ function Header({ user, onLogIn, onLogOut, onAdminToggle }) {
       <div className="heroGrid">
         <section>
           <p className="eyebrow"
-            style={{ fontSize: '2rem' }}
+            style={{ fontSize: '1.5rem' }}
             >Cancer-informed content warnings</p>
           <h1>Know before a story catches your heart off guard.</h1>
           <p className="lead">

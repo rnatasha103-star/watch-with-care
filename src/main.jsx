@@ -92,9 +92,10 @@ function Header({ user, onLogIn, onLogOut, onAdminToggle }) {
         </div>
 
         <div className="navActions">
-          <button className="ghostBtn" onClick={onAdminToggle}>
-            Review
-           </button>
+          {user?.email ===
+            "Rnatasha103@aol.com" && (
+              </button>
+                )}
           <button className="ghostBtn" onClick={user ? onLogOut : onLogIn}>
             {user ? <LogOut size={18} /> : <LogIn size={18} />}
             {user ? "Sign out" : "Sign in"}

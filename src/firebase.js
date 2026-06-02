@@ -6,7 +6,7 @@ import { getFirestore } from 'firebase/firestore';
 // 2) Add a Web App and paste your config below.
 // 3) Enable Firestore Database and Google Authentication.
 export const firebaseConfig = {
-  apiKey: "AIzaSyAiNOrW-BvfhikeObjCVxJPwmvwRiXXwFs",
+  apiKey: "AIzaSyAInOrW-BvfhikeObjCVxJPwmvwRiXXwFs",
   authDomain: "watch-with-care.firebaseapp.com",
   projectId: "watch-with-care",
   storageBucket: "watch-with-care.firebasestorage.app",

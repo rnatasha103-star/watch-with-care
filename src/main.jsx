@@ -93,7 +93,7 @@ function Header({ user, onLogIn, onLogOut, onAdminToggle }) {
 
         <div className="navActions">
           {user?.email ===
-            "Rnatasha103@aol.com" && (
+            "rnatasha103@aol.com" && (
               <button className="ghostBtn"
                 onClick={onAdminToggle}>
                 Review

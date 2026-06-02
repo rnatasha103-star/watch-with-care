@@ -1,0 +1,15 @@
+{
+  "name": "Watch With Care",
+  "short_name": "WatchWithCare",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2c4c4c",
+  "theme_color": "#2c4c4c",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

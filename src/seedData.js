@@ -34,7 +34,7 @@ export const seedWarnings = [
   },
   {
     title: 'The Fault in Our Stars',
-    type: 'Book/Movie',
+    type: 'Movie',
     year: '2012 / 2014',
     intensity: 'Very High',
     tags: ['Young adults with cancer', 'Recurrence', 'Death', 'Support group'],

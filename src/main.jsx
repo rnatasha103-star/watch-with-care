@@ -28,7 +28,7 @@ import { seedWarnings, cancerTags } from './seedData';
 import './styles.css';
 
 const intensities = ['All', 'Mild', 'Moderate', 'High', 'Very High'];
-const types = ['All', 'Movie', 'TV Show', 'Book', 'Book/Movie'];
+const types = ['All', 'Movie', 'TV Show', 'Book'];
 
 const OWNER_EMAIL = "rnatasha103@aol.com";
 

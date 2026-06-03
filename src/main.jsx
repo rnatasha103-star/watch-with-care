@@ -111,7 +111,7 @@ function Header({ user, onLogIn, onLogOut, onAdminToggle }) {
           <p className="eyebrow"
             style={{ fontSize: '1.25rem' }}
             >Cancer-informed content warnings</p>
-          <h1>Know before a story catches your heart off guard.</h1>
+          <h1>Content warnings for the stories that hit too close to home.</h1>
           <p className="lead">
             Search movies, TV shows, and books for compassionate warnings about cancer,
             terminal illness, death, grief, hospice, and medical trauma.

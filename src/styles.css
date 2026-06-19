@@ -671,8 +671,14 @@ footer,
 .footer p,
 .site-footer,
 .site-footer p {
-  font-size: 1.35rem !important;
+  font-size: 1.8rem !important;
   line-height: 1.6 !important;
   font-weight: 700 !important;
   color: #111827 !important;
+}
+/* Make footer logo/text a little larger */
+footer img,
+.footer img,
+.site-footer img {
+  max-width: 280px !important;
 }

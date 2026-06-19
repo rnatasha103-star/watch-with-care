@@ -614,3 +614,54 @@ textarea {
   padding: 20px !important;
   margin-bottom: 20px !important;
 }
+/* Stronger small text readability */
+body,
+p,
+span,
+label,
+input,
+select,
+textarea,
+button {
+  color: #111827 !important;
+  font-weight: 600 !important;
+}
+
+/* Make subtitle under headline larger */
+.hero p,
+.hero-subtitle,
+.subtitle {
+  font-size: 1.25rem !important;
+  line-height: 1.7 !important;
+  color: #111827 !important;
+  font-weight: 600 !important;
+}
+
+/* Make Mission section stand out */
+.mission,
+.mission p,
+.mission-box,
+.mission-box p {
+  font-size: 1.22rem !important;
+  line-height: 1.7 !important;
+  color: #0f172a !important;
+  font-weight: 700 !important;
+}
+
+/* Make the badge/pill text stronger */
+.badge,
+.pill,
+.tag {
+  font-size: 1.05rem !important;
+  color: #0f172a !important;
+  font-weight: 700 !important;
+}
+
+/* Search area and form text */
+input,
+select,
+textarea {
+  font-size: 1.05rem !important;
+  color: #0f172a !important;
+  font-weight: 600 !important;
+}

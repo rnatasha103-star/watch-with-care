@@ -522,7 +522,67 @@ footer {
   min-height: auto;
 }
 
+/* Improve readability for smaller text */
+p,
+span,
+label,
+input,
+select,
+textarea,
+button {
+  color: #111827;
+  font-weight: 500;
+}
 
+/* Main subtitle under the large heading */
+.hero p,
+.hero-subtitle,
+.subtitle {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+/* Mission section text */
+.mission,
+.mission p,
+.mission-box,
+.mission-box p {
+  font-size: 1.12rem;
+  line-height: 1.6;
+  color: #111827;
+  font-weight: 600;
+}
+
+/* Small pill labels */
+.badge,
+.pill,
+.tag {
+  font-size: 0.95rem;
+  color: #111827;
+  font-weight: 600;
+}
+
+/* Search bar and dropdown text */
+input,
+select,
+textarea {
+  font-size: 1rem;
+  color: #111827;
+  font-weight: 500;
+}
+
+/* Result/card text */
+.card,
+.card p,
+.card span,
+.warning-card,
+.warning-card p,
+.warning-card span {
+  color: #1f2937;
+  font-weight: 500;
+}
 @media (max-width: 720px) {
   .heroGrid,
   .container {

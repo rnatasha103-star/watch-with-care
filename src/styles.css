@@ -743,3 +743,31 @@ footer {
   text-align: center;
   padding: 90px 20px 70px;
 }
+.footer-message {
+  font-size: 2.8rem !important;
+  line-height: 1.35 !important;
+  font-weight: 800 !important;
+  color: #07165f !important;
+  max-width: 1100px !important;
+  margin: 0 auto 48px !important;
+  text-align: center !important;
+}
+
+.footerLogo,
+.footer-logo {
+  max-width: 750px !important;
+  width: 80% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+footer a {
+  text-decoration: none !important;
+  display: inline-block !important;
+}
+
+footer {
+  text-align: center !important;
+  padding: 110px 20px 90px !important;
+}

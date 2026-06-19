@@ -720,3 +720,26 @@ footer a,
   display: inline-block;
   text-decoration: none;
 }
+.footer-message {
+  font-size: 2.3rem !important;
+  line-height: 1.4 !important;
+  font-weight: 700 !important;
+  color: #111827 !important;
+  max-width: 1000px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.footer-logo,
+.footerLogo {
+  max-width: 520px !important;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 90px 20px 70px;
+}

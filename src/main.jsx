@@ -726,7 +726,7 @@ function App() {
     target="_blank" 
     rel="noopener noreferrer"
   >
-    <img src="/radiant-transformations-logo.png" alt="Radiant Transformations" />
+    <img src="/radiant-logo.png" alt="Radiant Transformations logo" />
   </a>
 </footer>
         </div>

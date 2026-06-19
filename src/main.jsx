@@ -719,13 +719,16 @@ function App() {
           </main>
 
           <footer>
-            <p>Built with care for people who deserve to choose what their hearts are ready for.</p>
-            <img
-              src="/radiant-logo.png"
-              alt="Radiant Transformations logo"
-              className="footerLogo"
-            />
-          </footer>
+  <p>Built with care by Radiant Transformations — for people who deserve to choose what their hearts are ready for.</p>
+
+  <a 
+    href="https://radiant-transformations.com" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <img src="/radiant-transformations-logo.png" alt="Radiant Transformations" />
+  </a>
+</footer>
         </div>
       )}
     </div>

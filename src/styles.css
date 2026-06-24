@@ -821,22 +821,22 @@ p.footer-tagline {
   line-height: 1.45 !important;
   margin: 70px auto 28px !important;
   padding: 0 24px !important;
+  font-size: 28px !important; /* new base size */
 }
-
 /* Desktop */
 @media screen and (min-width: 769px) {
   .footer-tagline,
   p.footer-tagline {
-    font-size: 24px !important;
+    font-size: 32px !important; /* increased from 24px */
     max-width: 1000px !important;
   }
 }
-
 /* Phone */
+@media screen and (max-width: 768px) {
 @media screen and (max-width: 768px) {
   .footer-tagline,
   p.footer-tagline {
-    font-size: 20px !important;
+    font-size: 24px !important; /* increased from 20px */
     max-width: 360px !important;
     margin-top: 0.2px !important;
   }

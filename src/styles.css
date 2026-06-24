@@ -784,17 +784,30 @@ h3,
   -webkit-text-fill-color: #0b1538;
 }
 
-button,
+/* Keep tag/chip text navy */
+.tag-pill,
+.badge,
+.category-chip,
+.warning-tag,
+.chip {
+  color: #0b1538 !important;
+  -webkit-text-fill-color: #0b1538 !important;
+}
+
+/* Only make the submit button text white */
 .submit-button,
 .review-submit-button,
+button[type="submit"],
 input[type="submit"] {
+  background-color: #07145c;
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
 }
 
-button *,
+/* Only children inside the submit button should be white */
 .submit-button *,
-.review-submit-button * {
+.review-submit-button *,
+button[type="submit"] * {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
 }

@@ -719,7 +719,9 @@ function App() {
           </main>
 
           <footer>
-  <p>Built with care by Radiant Transformations — for people who deserve to choose what their hearts are ready for.</p>
+  <p className="footer-tagline">
+  Built with care by Radiant Transformations — for people who deserve to choose what their hearts are ready for.
+</p>
 
   <a 
     href="https://radiant-transformations.com" 
